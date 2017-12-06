@@ -72,9 +72,10 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# End of https://www.gitignore.io/api/osx,linux,windows,visualstudiocode
+
+
 # binaries
 build/*
 src/implementation/*
-examples
-
-# End of https://www.gitignore.io/api/osx,linux,windows,visualstudiocode
+examples/*
