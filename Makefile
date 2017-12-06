@@ -1,7 +1,7 @@
 CC= gcc    
 CC_FLAG= -Wall -O0 -g 
 
-makePublicInterface: clean
+interface: clean
 	$(CC) -E    src/lib/libevents.h > build/libevents.h
 
 .PHONY: clean
